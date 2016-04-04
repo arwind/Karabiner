@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<root>
+  <list>
+
+    <item>
+      <name>Remap Brightness Keys</name>
+      <appendix>Darker, Brighter</appendix>
+      <identifier>remap.brightnesskeys</identifier>
+      <autogen>--KeyToKey-- KeyCode::F1, KeyCode::RawValue::0x006b</autogen>
+      <autogen>--KeyToKey-- KeyCode::F2, KeyCode::RawValue::0x0071</autogen>
+    </item>
+
+    <item>
+          <name>Mission Controls to F3,F4</name>
+          <identifier>private.functions_as_media.ctrl_mission_controls</identifier>
+          <autogen>--KeyToKey-- KeyCode::F3, KeyCode::MISSION_CONTROL</autogen>
+          <autogen>--KeyToKey-- KeyCode::F3, KeyCode::MISSION_CONTROL</autogen>
+          <autogen>--KeyToKey-- KeyCode::F4, KeyCode::LAUNCHPAD</autogen>
+          <autogen>--KeyToKey-- KeyCode::F4, KeyCode::LAUNCHPAD</autogen>
+        </item>
+        <item>
+          <name>Music Controls to F9,F10,F11</name>
+          <identifier>private.functions_as_media.ctrl_music_controls</identifier>
+          <autogen>--KeyToConsumer-- KeyCode::F9,  ConsumerKeyCode::MUSIC_PREV</autogen>
+          <autogen>--KeyToConsumer-- KeyCode::F9,  ConsumerKeyCode::MUSIC_PREV</autogen>
+          <autogen>--KeyToConsumer-- KeyCode::F10, ConsumerKeyCode::MUSIC_PLAY</autogen>
+          <autogen>--KeyToConsumer-- KeyCode::F10, ConsumerKeyCode::MUSIC_PLAY</autogen>
+          <autogen>--KeyToConsumer-- KeyCode::F11, ConsumerKeyCode::MUSIC_NEXT</autogen>
+          <autogen>--KeyToConsumer-- KeyCode::F11, ConsumerKeyCode::MUSIC_NEXT</autogen>
+        </item>
+        <item>
+          <name>Eject Key to F12</name>
+          <identifier>private.functions_as_media.ctrl_eject_key</identifier>
+          <autogen>--KeyToConsumer-- KeyCode::F12, ConsumerKeyCode::EJECT</autogen>
+        </item>
+        <item>
+          <name>Power Key to Ctrl+F12</name>
+          <identifier>private.functions_as_media.ctrl_power_key</identifier>
+          <autogen>--KeyToConsumer-- KeyCode::F12, ConsumerKeyCode::POWER</autogen>
+          <autogen>--KeyToConsumer-- KeyCode::F12, ConsumerKeyCode::POWER</autogen>
+        </item>
+        <item>
+          <name>Volume Controls to F13,F14,F15</name>
+          <identifier>private.functions_as_media.ctrl_volume_controls</identifier>
+          <autogen>--KeyToConsumer-- KeyCode::F13, ConsumerKeyCode::VOLUME_MUTE</autogen>
+          <autogen>--KeyToConsumer-- KeyCode::F13, ConsumerKeyCode::VOLUME_MUTE</autogen>
+          <autogen>--KeyToConsumer-- KeyCode::F14, ConsumerKeyCode::VOLUME_DOWN</autogen>
+          <autogen>--KeyToConsumer-- KeyCode::F14, ConsumerKeyCode::VOLUME_DOWN</autogen>
+          <autogen>--KeyToConsumer-- KeyCode::F15, ConsumerKeyCode::VOLUME_UP</autogen>
+          <autogen>--KeyToConsumer-- KeyCode::F15, ConsumerKeyCode::VOLUME_UP</autogen>
+        </item>
+    </item>
+</root>
